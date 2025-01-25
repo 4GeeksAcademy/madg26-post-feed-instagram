@@ -1,0 +1,8 @@
+.nav-tabs .nav-link, .nav-tabs {
+    border-color: white;
+}
+.img-thumbnail, card-img-top {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+  }
