@@ -14,153 +14,163 @@
   <link rel="stylesheet" href="index.css">
   <title>Document</title>
 </head>
-<body>
-  <div class="d-flex mb-3 align-items-center">
-    <div class="me-auto"><i class="fa-brands fa-instagram"> Instagram </i></div>
-    <div class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Create a now post</div>
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">Create a now post</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <div class="form-floating">
-              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-              <label for="floatingTextarea">Add the caption of your post here</label>
+  <body>
+    <div class="d-flex mb-3 align-items-center">
+      <div class="me-auto">
+        <i class="fa-brands fa-instagram"> Instagram </i>
+      </div>
+      <div class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Create a now post
+      </div>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Create a now post</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">               
+              </button>
             </div>
-            <button type="button" class="btn btn-light"><i class="fa-solid fa-camera"></i></button>
-            <button type="button" class="btn btn-light" href=""><i class="fa-solid fa-location-dot"></i></button>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-success">Publish</button>
+            <div class="modal-body">
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Add the caption of your post here</label>
+              </div>
+              <button type="button" class="btn btn-light"><i class="fa-solid fa-camera"></i>
+              </button>
+              <button type="button" class="btn btn-light" href=""><i class="fa-solid fa-location-dot"></i>
+              </button>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-success">Publish</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="dropdown ms-2">
-      <a class="btn btn-secondary dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
-        aria-expanded="false"><i class="fa-solid fa-gear"></i>
-      </a>
+      <div class="dropdown ms-2">
+        <a class="btn btn-secondary dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          <i class="fa-solid fa-gear"></i>
+        </a>
 
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#">Profile</a></li>
-        <li><a class="dropdown-item" href="#">Accesibility</a></li>
-        <li><a class="dropdown-item" href="#">Privacy and data</a></li>
-        <li>
-          <hr class="dropdown-divider">
-        </li>
-        <li><a class="dropdown-item text-danger" href="#"> Log out</a></li>
-      </ul>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Profile</a></li>
+          <li><a class="dropdown-item" href="#">Accesibility</a></li>
+          <li><a class="dropdown-item" href="#">Privacy and data</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item text-danger" href="#"> Log out</a></li>
+        </ul>
+      </div>
     </div>
-  </div>
-  <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
-    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button"
-      role="tab" aria-controls="nav-home" aria-selected="true"><i class="fa-solid fa-table-cells"
-        style="color: #000000;"></i></button>
-    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button"
-      role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fa-solid fa-square"
-        style="color: #121212;"></i></button>
-  </div>
-  <div class="tab-content justify-content-center" id="nav-tabContent">
-    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
-      <div class="container text-center">
-        <div class="row align-items-start">
-          <div class="col-4 overflow-hidden p-1">
-            <img
-              src="https://images.pexels.com/photos/66898/elephant-cub-tsavo-kenya-66898.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              class="img-thumbnail" alt="Imagen en miniatura">
-          </div>
-          <div class="col-4 overflow-hidden p-1">
-            <img
-              src="https://images.pexels.com/photos/47547/squirrel-animal-cute-rodents-47547.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              class="img-thumbnail" alt="Imagen en miniatura">
-          </div>
-          <div class="col-4 overflow-hidden p-1">
-            <img
-              src="https://images.pexels.com/photos/45170/kittens-cat-cat-puppy-rush-45170.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              class="img-thumbnail" alt="Imagen en miniatura">
-          </div>
-        </div>
+    <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+      <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button"
+        role="tab" aria-controls="nav-home" aria-selected="true">
+        <i class="fa-solid fa-table-cells"
+          style="color: #000000;"></i>
+        </button>
+      <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button"
+        role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fa-solid fa-square"
+          style="color: #121212;"></i></button>
+    </div>
+    <div class="tab-content justify-content-center" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
         <div class="container text-center">
-          <div class="row align-items-center">
+          <div class="row align-items-start">
             <div class="col-4 overflow-hidden p-1">
               <img
-                src="https://images.pexels.com/photos/34098/south-africa-hluhluwe-giraffes-pattern.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                class="img-thumbnail" class="rounded-0" alt="...">
-            </div>
-            <div class="col-4 overflow-hidden p-1">
-              <img
-                src="https://images.pexels.com/photos/247376/pexels-photo-247376.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                class="img-thumbnail" alt="...">
+                src="https://images.pexels.com/photos/66898/elephant-cub-tsavo-kenya-66898.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                class="img-thumbnail" alt="Imagen en miniatura">
             </div>
             <div class="col-4 overflow-hidden p-1">
               <img
-                src="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                class="img-thumbnail" alt="...">
-            </div>
-          </div>
-        </div>
-        <div class="container text-center">
-          <div class="row align-items-end">
-            <div class="col-4 overflow-hidden p-1">
-              <img src="https://cdn.pixabay.com/photo/2021/11/14/21/14/animals-6795732_1280.jpg" class="img-thumbnail"
-                alt="Imagen en miniatura">
+                src="https://images.pexels.com/photos/47547/squirrel-animal-cute-rodents-47547.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                class="img-thumbnail" alt="Imagen en miniatura">
             </div>
             <div class="col-4 overflow-hidden p-1">
-              <img src="https://cdn.pixabay.com/photo/2014/11/03/17/40/leopard-515509_1280.jpg" class="img-thumbnail"
-                alt="Imagen en miniatura">
-            </div>
-            <div class="col-4 overflow-hidden p-1">
-              <img src="https://cdn.pixabay.com/photo/2024/03/02/13/05/orange-parrots-8608540_1280.jpg"
+              <img
+                src="https://images.pexels.com/photos/45170/kittens-cat-cat-puppy-rush-45170.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 class="img-thumbnail" alt="Imagen en miniatura">
             </div>
           </div>
+          <div class="container text-center">
+            <div class="row align-items-center">
+              <div class="col-4 overflow-hidden p-1">
+                <img
+                  src="https://images.pexels.com/photos/34098/south-africa-hluhluwe-giraffes-pattern.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  class="img-thumbnail" class="rounded-0" alt="...">
+              </div>
+              <div class="col-4 overflow-hidden p-1">
+                <img
+                  src="https://images.pexels.com/photos/247376/pexels-photo-247376.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  class="img-thumbnail" alt="...">
+              </div>
+              <div class="col-4 overflow-hidden p-1">
+                <img
+                  src="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  class="img-thumbnail" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="container text-center">
+            <div class="row align-items-end">
+              <div class="col-4 overflow-hidden p-1">
+                <img src="https://cdn.pixabay.com/photo/2021/11/14/21/14/animals-6795732_1280.jpg" class="img-thumbnail"
+                  alt="Imagen en miniatura">
+              </div>
+              <div class="col-4 overflow-hidden p-1">
+                <img src="https://cdn.pixabay.com/photo/2014/11/03/17/40/leopard-515509_1280.jpg" class="img-thumbnail"
+                  alt="Imagen en miniatura">
+              </div>
+              <div class="col-4 overflow-hidden p-1">
+                <img src="https://cdn.pixabay.com/photo/2024/03/02/13/05/orange-parrots-8608540_1280.jpg"
+                  class="img-thumbnail" alt="Imagen en miniatura">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
-      <div class="d-flex align-items-center flex-column">
-        <div class="card" style="width: 18rem;">
-          <div class="d-flex justify-content-between my-0">
-            <h4>Rey de la selva</h4>
-            <p>23/12</p>
+      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+        <div class="d-flex align-items-center flex-column">
+          <div class="card" style="width: 18rem;">
+            <div class="d-flex justify-content-between my-0">
+              <h4>Rey de la selva</h4>
+              <p>23/12</p>
+            </div>
+            <img src="https://cdn.pixabay.com/photo/2024/05/08/17/45/animal-8748794_1280.jpg" class="card-img-top"
+              alt="...">
+            <div class="card-body">
+              <p class="card-text"><strong>10.000 likes</strong><br>
+                Aprendiendo a programar con 4Geeks Academy</p>
+            </div>
           </div>
-          <img src="https://cdn.pixabay.com/photo/2024/05/08/17/45/animal-8748794_1280.jpg" class="card-img-top"
-            alt="...">
-          <div class="card-body">
-            <p class="card-text"><strong>10.000 likes</strong><br>
-              Aprendiendo a programar con 4Geeks Academy</p>
-          </div>
-        </div>
 
-        <div class="card" style="width: 18rem;">
-          <div class="d-flex justify-content-between my-0">
-            <h4>Oso Salvaje.</h4>
-            <p>25/09</p>
+          <div class="card" style="width: 18rem;">
+            <div class="d-flex justify-content-between my-0">
+              <h4>Oso Salvaje.</h4>
+              <p>25/09</p>
+            </div>
+            <img
+              src="https://media.istockphoto.com/id/1458215547/photo/brown-bear.jpg?s=1024x1024&w=is&k=20&c=R2zXwSRYnLX2kZt7qBUBW1eLhWL3gamnkN6HE_S2Awk="
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text"><strong>500 Likes</strong><br>Clase de Bootstrap</p>
+            </div>
           </div>
-          <img
-            src="https://media.istockphoto.com/id/1458215547/photo/brown-bear.jpg?s=1024x1024&w=is&k=20&c=R2zXwSRYnLX2kZt7qBUBW1eLhWL3gamnkN6HE_S2Awk="
-            class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text"><strong>500 Likes</strong><br>Clase de Bootstrap</p>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <div class="d-flex justify-content-between my-0">
-            <h4>Fauna Salvaje</h4>
-            <p>26/04</p>
-          </div>
-          <img src="https://cdn.pixabay.com/photo/2023/07/30/11/30/spider-8158656_1280.jpg" class="card-img-top"
-            alt="...">
-          <div class="card-body">
-            <p class="card-text"><strong>3.000 Likes</strong><br>
-              Con la profe Marta y el profe Jose</p>
+          <div class="card" style="width: 18rem;">
+            <div class="d-flex justify-content-between my-0">
+              <h4>Fauna Salvaje</h4>
+              <p>26/04</p>
+            </div>
+            <img src="https://cdn.pixabay.com/photo/2023/07/30/11/30/spider-8158656_1280.jpg" class="card-img-top"
+              alt="...">
+            <div class="card-body">
+              <p class="card-text"><strong>3.000 Likes</strong><br>
+                Con la profe Marta y el profe Jose</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-</body>
+  </body>
 </html>
